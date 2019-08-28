@@ -15,9 +15,10 @@
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
   </component>
   <component name="HighlightingSettingsPerFile">
-    <setting file="file://$PROJECT_DIR$/Assets/Scripts/TriggerBehavior.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/B0962A7E-4E65-4650-BBC1-04838AA9616A/bc/e888c37f/ScriptableObject.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/capsuleCreate.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/B0962A7E-4E65-4650-BBC1-04838AA9616A/bc/e888c37f/ScriptableObject.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/FloatData.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/TriggerEventBehavior.cs" root0="FORCE_HIGHLIGHTING" />
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
@@ -25,6 +26,8 @@
         <option value="$PROJECT_DIR$/Assets/FloatData.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/FloatData.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/TriggerBehavior.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/capsuleCreate.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/TriggerEventBehavior.cs" />
       </list>
     </option>
   </component>
@@ -83,6 +86,7 @@
       <workItem from="1566415782273" duration="87000" />
       <workItem from="1566415951135" duration="1403000" />
       <workItem from="1566418462730" duration="1056000" />
+      <workItem from="1567019780349" duration="1435000" />
     </task>
     <servers />
   </component>
