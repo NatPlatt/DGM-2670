@@ -29,8 +29,8 @@
         <option value="$PROJECT_DIR$/Assets/Scripts/TriggerBehavior.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/capsuleCreate.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/TriggerEventBehavior.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/PlayerController.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/followPlayer.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/PlayerController.cs" />
       </list>
     </option>
   </component>
@@ -90,7 +90,7 @@
       <workItem from="1566415951135" duration="1403000" />
       <workItem from="1566418462730" duration="1056000" />
       <workItem from="1567019780349" duration="1991000" />
-      <workItem from="1567456459929" duration="906000" />
+      <workItem from="1567456459929" duration="1513000" />
     </task>
     <servers />
   </component>
