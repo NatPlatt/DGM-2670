@@ -693,7 +693,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1075660846}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 1.3575401, y: 0.24044222, z: -26.112839}
+  m_LocalPosition: {x: 1.52, y: 0.24044222, z: -26.112839}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 2139462458}
@@ -972,6 +972,7 @@ MonoBehaviour:
   turnSpeed: 45
   horizontalInput: 0
   forwardInput: 0
+  xRange: 7
 --- !u!65 &1950698176
 BoxCollider:
   m_ObjectHideFlags: 0
