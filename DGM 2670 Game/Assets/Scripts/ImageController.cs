@@ -8,7 +8,7 @@ using UnityEngine.UI;
 public class ImageController : MonoBehaviour
 {
     private Image imageComponent;
-    public UnityEvent updateImageEvent;
+    
     
     private void Start()
     {
@@ -25,8 +25,5 @@ public class ImageController : MonoBehaviour
         imageComponent.fillAmount = dataObj.value;
     }
 
-    private void Update()
-    {
-        updateImageEvent.Invoke();
-    }
+    
 }
