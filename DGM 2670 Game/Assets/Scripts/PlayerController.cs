@@ -11,7 +11,7 @@ public class PlayerController : MonoBehaviour
     public float forwardInput;
     public float xRange = 7;
     public GameObject playerObj;
-    public Color redColor;
+    //public Color redColor;
     
     delegate void MultiDelegate();
 
@@ -32,7 +32,7 @@ public class PlayerController : MonoBehaviour
         
     }
 
-    private void Start()
+    /*private void Start()
     {
         myMulti += TurnRed;
         
@@ -49,5 +49,5 @@ public class PlayerController : MonoBehaviour
    private void OnTriggerEnter(Collider other)
     {
         playerObj.GetComponent<Color>();
-    }
+    }*/
 }

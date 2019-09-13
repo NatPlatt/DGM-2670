@@ -457,12 +457,13 @@ MonoBehaviour:
   triggerEnterEvents:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 419035543}
-        m_MethodName: set_isTrigger
-        m_Mode: 6
+      - m_Target: {fileID: 1456350766}
+        m_MethodName: set_material
+        m_Mode: 2
         m_Arguments:
-          m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_ObjectArgument: {fileID: 2100000, guid: 120703d926656bd46b59c516f77bb036,
+            type: 2}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Material, UnityEngine
           m_IntArgument: 0
           m_FloatArgument: 0
           m_StringArgument: 
@@ -498,6 +499,7 @@ GameObject:
   - component: {fileID: 419035541}
   - component: {fileID: 419035544}
   - component: {fileID: 419035543}
+  - component: {fileID: 419035542}
   m_Layer: 0
   m_Name: player
   m_TagString: Untagged
@@ -521,6 +523,24 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 4
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &419035542
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 419035540}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4e4e96eac54f0154e89a63677b1a846d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  speed: 20
+  turnSpeed: 45
+  horizontalInput: 0
+  forwardInput: 0
+  xRange: 7
+  playerObj: {fileID: 419035540}
 --- !u!65 &419035543
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -1264,7 +1284,6 @@ GameObject:
   - component: {fileID: 1456350768}
   - component: {fileID: 1456350767}
   - component: {fileID: 1456350766}
-  - component: {fileID: 1456350764}
   m_Layer: 10
   m_Name: playerObj
   m_TagString: Untagged
@@ -1272,25 +1291,6 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!114 &1456350764
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1456350763}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 4e4e96eac54f0154e89a63677b1a846d, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  speed: 20
-  turnSpeed: 45
-  horizontalInput: 0
-  forwardInput: 0
-  xRange: 7
-  playerObj: {fileID: 0}
-  redColor: {r: 0, g: 0, b: 0, a: 0}
 --- !u!23 &1456350766
 MeshRenderer:
   m_ObjectHideFlags: 0
