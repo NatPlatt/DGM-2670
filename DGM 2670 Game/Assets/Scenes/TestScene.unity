@@ -887,6 +887,7 @@ GameObject:
   - component: {fileID: 937654507}
   - component: {fileID: 937654506}
   - component: {fileID: 937654511}
+  - component: {fileID: 937654512}
   m_Layer: 14
   m_Name: Capsule (1)
   m_TagString: Untagged
@@ -995,6 +996,20 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 4428aa5abd8bd7040a2024743aaf2edf, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+--- !u!114 &937654512
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 937654505}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a5968a6537483384480d0b2cfe7ef11b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  addButton: {fileID: 0}
+  myObj: {fileID: 937654508}
 --- !u!1 &977945259
 GameObject:
   m_ObjectHideFlags: 0
@@ -1045,11 +1060,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: af4b47b58d274dd4aa1c12e40e2b06f5, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  updateImageEvent:
-    m_PersistentCalls:
-      m_Calls: []
-    m_TypeName: UnityEngine.Events.UnityEvent, UnityEngine.CoreModule, Version=0.0.0.0,
-      Culture=neutral, PublicKeyToken=null
 --- !u!114 &977945262
 MonoBehaviour:
   m_ObjectHideFlags: 0
