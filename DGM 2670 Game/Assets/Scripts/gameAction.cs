@@ -11,6 +11,10 @@ public class GameAction : ScriptableObject
 
     public void Raise()
     {
-        action();
+        if (action != null)
+        {
+            action();
+        }
+     
     }
 }

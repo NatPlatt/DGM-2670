@@ -1,4 +1,5 @@
-﻿using System.Collections;
+﻿using System;
+using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
@@ -9,6 +10,12 @@ public class PlayerController : MonoBehaviour
     public float horizontalInput;
     public float forwardInput;
     public float xRange = 7;
+    public GameObject playerObj;
+    public Color redColor;
+    
+    delegate void MultiDelegate();
+
+    private MultiDelegate myMulti;
     
     // Update is called once per frame
     void Update()
@@ -21,5 +28,26 @@ public class PlayerController : MonoBehaviour
         
         transform.Translate(Vector3.forward * Time.deltaTime * speed * forwardInput);
         transform.Rotate(Vector3.up, turnSpeed * horizontalInput * Time.deltaTime);
+        
+        
+    }
+
+    private void Start()
+    {
+        myMulti += TurnRed;
+        
+        if (myMulti != null)
+        {
+            myMulti();
+        }
+    }
+
+    void TurnRed()
+    {
+       
+    }
+   private void OnTriggerEnter(Collider other)
+    {
+        playerObj.GetComponent<Color>();
     }
 }
