@@ -19,7 +19,15 @@ public class PowerBooster : MonoBehaviour
 
    private void OnTriggerEnter(Collider other)
    {
-       powerState = PowerStates.Fast;
+       if (other.name == "fast")
+       {
+           powerState = PowerStates.Fast;
+       }
+
+       if (other.name == "slow")
+       {
+           powerState = PowerStates.Slow;
+       }
    }
 
    private void Update()
