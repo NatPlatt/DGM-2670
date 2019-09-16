@@ -15,9 +15,9 @@
           <e p="gameAction.cs" t="Include" />
           <e p="GameActionHandler.cs" t="Include" />
           <e p="ImageController.cs" t="Include" />
-          <e p="MoveTransform.cs" t="Include" />
           <e p="outOfBounds.cs" t="Include" />
           <e p="PlayerController.cs" t="Include" />
+          <e p="TransformController.cs" t="Include" />
           <e p="TriggerEventBehavior.cs" t="Include" />
         </e>
       </e>

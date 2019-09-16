@@ -8,6 +8,10 @@ public class FloatData : ScriptableObject
 	public float value = 1f;
 	public float maxValue = 1f;
 
+	private void Start()
+	{
+		value = 1;
+	}
 	public void UpdateValue(float amount)
 	{
 		value += amount;

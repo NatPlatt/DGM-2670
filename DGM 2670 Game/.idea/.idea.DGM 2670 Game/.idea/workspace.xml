@@ -32,7 +32,6 @@
         <option value="$PROJECT_DIR$/Assets/FloatData.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/TriggerBehavior.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/capsuleCreate.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/TriggerEventBehavior.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/followPlayer.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/outOfBounds.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/GameActionHandler.cs" />
@@ -41,6 +40,8 @@
         <option value="$PROJECT_DIR$/Assets/Scripts/gameAction.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/PlayerController.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/PowerBooster.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/MoveTransform.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/TriggerEventBehavior.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/FloatData.cs" />
       </list>
     </option>
@@ -109,7 +110,7 @@
       <workItem from="1568339029700" duration="2446000" />
       <workItem from="1568402357522" duration="2170000" />
       <workItem from="1568405119811" duration="668000" />
-      <workItem from="1568660590279" duration="4662000" />
+      <workItem from="1568660590279" duration="5323000" />
     </task>
     <servers />
   </component>
