@@ -18,18 +18,20 @@ public class PowerBooster : MonoBehaviour
 
    private void Update()
    {
-       if (powerState == PowerStates.Normal)
+       switch (powerState)
        {
-           Normal();
-       } else if (powerState == PowerStates.Fast)
-       {
-           Fast();
-       } else if (powerState == PowerStates.Slow)
-       {
-           Slow();
-       } else if (powerState == PowerStates.Stop)
-       {
-           Stop();
+           case PowerStates.Normal:
+               Normal();
+               break;
+           case PowerStates.Fast:
+               Fast();
+               break;
+           case PowerStates.Slow:
+               Slow();
+               break;
+           case PowerStates.Stop:
+               Stop();
+               break;
        }
    }
 
