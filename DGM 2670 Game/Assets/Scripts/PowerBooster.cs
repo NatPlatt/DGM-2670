@@ -1,6 +1,7 @@
 ﻿using System;
 using System.Collections;
 using System.Collections.Generic;
+using UnityEditor;
 using UnityEngine;
 
 public class PowerBooster : MonoBehaviour
@@ -15,6 +16,11 @@ public class PowerBooster : MonoBehaviour
    }
 
    public PowerStates powerState = PowerStates.Normal;
+
+   private void OnTriggerEnter(Collider other)
+   {
+       
+   }
 
    private void Update()
    {
@@ -33,8 +39,10 @@ public class PowerBooster : MonoBehaviour
                Stop();
                break;
        }
+       var speedVector = new Vector3(speed, 0,0 )*Time.deltaTime;
+       transform.Translate(speedVector);
    }
-
+    
    public void Normal()
    {
        speed = 1f;
