@@ -1,4 +1,5 @@
-﻿using System.Collections;
+﻿using System;
+using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
@@ -14,6 +15,23 @@ public class PowerBooster : MonoBehaviour
    }
 
    public PowerStates powerState = PowerStates.Normal;
+
+   private void Update()
+   {
+       if (powerState == PowerStates.Normal)
+       {
+           Normal();
+       } else if (powerState == PowerStates.Fast)
+       {
+           Fast();
+       } else if (powerState == PowerStates.Slow)
+       {
+           Slow();
+       } else if (powerState == PowerStates.Stop)
+       {
+           Stop();
+       }
+   }
 
    public void Normal()
    {
