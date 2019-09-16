@@ -28,6 +28,16 @@ public class PowerBooster : MonoBehaviour
        {
            powerState = PowerStates.Slow;
        }
+
+       if (other.name == "normal")
+       {
+           powerState = PowerStates.Normal;
+       }
+
+       if (other.name == "stop")
+       {
+           powerState = PowerStates.Normal;
+       }
    }
 
    private void Update()
