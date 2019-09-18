@@ -22,10 +22,13 @@ public class actionCalls : MonoBehaviour
         switch (transformState)
         {
             case TransformStates.Move:
+                OnMove();
                 break;
             case TransformStates.Rotate:
+                OnRotate();
                 break;
             case TransformStates.Scale:
+                OnScale();
                 break;
             default:
                 throw new ArgumentOutOfRangeException();
