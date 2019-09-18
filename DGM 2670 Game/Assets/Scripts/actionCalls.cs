@@ -1,4 +1,5 @@
-﻿using System.Collections;
+﻿using System;
+using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
@@ -18,9 +19,17 @@ public class actionCalls : MonoBehaviour
     
     void Update()
     {
-        OnMove();
-        OnRotate();
-        OnScale();
+        switch (transformState)
+        {
+            case TransformStates.Move:
+                break;
+            case TransformStates.Rotate:
+                break;
+            case TransformStates.Scale:
+                break;
+            default:
+                throw new ArgumentOutOfRangeException();
+        }
     }
     public void OnMove()
     {
