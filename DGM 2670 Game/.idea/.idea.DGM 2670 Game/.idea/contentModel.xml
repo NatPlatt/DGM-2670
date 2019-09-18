@@ -10,6 +10,7 @@
           <e p="actionCalls.cs" t="Include" />
           <e p="ActionPractice.cs" t="Include" />
           <e p="capsuleCreate.cs" t="Include" />
+          <e p="eventsWithArgs.cs" t="Include" />
           <e p="FloatData.cs" t="Include" />
           <e p="followPlayer.cs" t="Include" />
           <e p="gameAction.cs" t="Include" />
