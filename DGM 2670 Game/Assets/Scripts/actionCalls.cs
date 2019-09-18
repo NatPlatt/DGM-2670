@@ -16,7 +16,23 @@ public class actionCalls : MonoBehaviour
     }
 
     public TransformStates transformState;
-    
+
+    private void OnMouseDown()
+    {
+        switch (transformState)
+        {
+            case TransformStates.Move:
+                transformState = TransformStates.Rotate;
+                break;
+            case TransformStates.Rotate:
+                transformState = TransformStates.Scale;
+                break;
+            case TransformStates.Scale:
+                transformState = TransformStates.Move;
+                break;
+        }
+    }
+
     void Update()
     {
         switch (transformState)
