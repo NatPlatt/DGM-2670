@@ -4,15 +4,23 @@ using UnityEngine;
 
 public class actionCalls : MonoBehaviour
 {
-    public float speed = 1f;
-    public float rotateSpeed = 10f;
-    private Vector3 location;
-    private Vector3 rotations;
+    public float speed = 1f, rotateSpeed = 10f, scaleSpeed = 0.2f;
+    private Vector3 location, rotations, scales;
+    
+    public enum TransformStates
+    {
+        Move,
+        Rotate,
+        Scale
+    }
+
+    public TransformStates transformState;
     
     void Update()
     {
         OnMove();
         OnRotate();
+        OnScale();
     }
     public void OnMove()
     {
@@ -24,5 +32,11 @@ public class actionCalls : MonoBehaviour
     {
         rotations.y = rotateSpeed * Time.deltaTime;
         transform.Rotate(rotations);
+    }
+
+    public void OnScale()
+    {
+        scales.Set(scaleSpeed,scaleSpeed,scaleSpeed);
+        transform.localScale += scales;
     }
 }
