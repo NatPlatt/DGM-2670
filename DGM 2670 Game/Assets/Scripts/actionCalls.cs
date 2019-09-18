@@ -14,32 +14,19 @@ public class actionCalls : MonoBehaviour
     {
         TransformAction = OnMove;
     }
-
-    public enum TransformStates
-    {
-        Move,
-        Rotate,
-        Scale
-    }
-
-    public TransformStates transformState;
-
     private void OnMouseDown()
     {
-        switch (transformState)
+        if (TransformAction == OnMove)
         {
-            case TransformStates.Move:
-                transformState = TransformStates.Rotate;
-                TransformAction = OnRotate;
-                break;
-            case TransformStates.Rotate:
-                transformState = TransformStates.Scale;
-                TransformAction = OnScale;
-                break;
-            case TransformStates.Scale:
-                transformState = TransformStates.Move;
-                TransformAction = OnMove;
-                break;
+            TransformAction = OnRotate;
+        }
+        else if (TransformAction == OnRotate)
+        {
+            TransformAction = OnScale;
+        } 
+        else if (TransformAction == OnScale)
+        {
+            TransformAction = OnMove;
         }
     }
 
