@@ -19,6 +19,7 @@
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/GameActionHandler.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/TriggerEventBehavior.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/ActionPractice.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/CharacterMover.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/gameAction.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/SceneChange.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/ImageController.cs" root0="FORCE_HIGHLIGHTING" />
@@ -28,6 +29,7 @@
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/actionCalls.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/PlayerController.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/outOfBounds.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/IntData.cs" root0="FORCE_HIGHLIGHTING" />
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
@@ -49,6 +51,8 @@
         <option value="$PROJECT_DIR$/Assets/Scripts/SceneChange.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/actionCalls.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/eventsWithArgs.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/IntData.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/CharacterMover.cs" />
       </list>
     </option>
   </component>
@@ -120,6 +124,7 @@
       <workItem from="1568741130492" duration="1349000" />
       <workItem from="1568821159141" duration="4554000" />
       <workItem from="1568838258926" duration="1047000" />
+      <workItem from="1569268185478" duration="3314000" />
     </task>
     <servers />
   </component>

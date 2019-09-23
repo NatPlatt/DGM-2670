@@ -10,12 +10,14 @@
           <e p="actionCalls.cs" t="Include" />
           <e p="ActionPractice.cs" t="Include" />
           <e p="capsuleCreate.cs" t="Include" />
+          <e p="CharacterMover.cs" t="Include" />
           <e p="eventsWithArgs.cs" t="Include" />
           <e p="FloatData.cs" t="Include" />
           <e p="followPlayer.cs" t="Include" />
           <e p="gameAction.cs" t="Include" />
           <e p="GameActionHandler.cs" t="Include" />
           <e p="ImageController.cs" t="Include" />
+          <e p="IntData.cs" t="Include" />
           <e p="NewBehaviourScript.cs" t="Include" />
           <e p="outOfBounds.cs" t="Include" />
           <e p="PlayerController.cs" t="Include" />
