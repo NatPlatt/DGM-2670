@@ -204,8 +204,8 @@ RectTransform:
   m_Children:
   - {fileID: 346629752}
   - {fileID: 2010497693}
-  m_Father: {fileID: 0}
-  m_RootOrder: 2
+  m_Father: {fileID: 1064614285}
+  m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 0, y: 0}
@@ -341,6 +341,62 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 346629751}
   m_CullTransparentMesh: 0
+--- !u!1 &950451671 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 252037991501469481, guid: 4ddb3742811de74488dd22d43cae45fa,
+    type: 3}
+  m_PrefabInstance: {fileID: 252037991320311221}
+  m_PrefabAsset: {fileID: 0}
+--- !u!95 &950451672 stripped
+Animator:
+  m_CorrespondingSourceObject: {fileID: 252037991501469483, guid: 4ddb3742811de74488dd22d43cae45fa,
+    type: 3}
+  m_PrefabInstance: {fileID: 252037991320311221}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &950451675
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 950451671}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 279ab466c3f8bc1439168a324b601438, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  animator: {fileID: 950451672}
+--- !u!1 &1064614284
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1064614285}
+  m_Layer: 0
+  m_Name: LevelFade
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1064614285
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1064614284}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 1.1000061, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 80701782}
+  m_Father: {fileID: 0}
+  m_RootOrder: 4
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1313253970
 GameObject:
   m_ObjectHideFlags: 0
@@ -418,7 +474,7 @@ Transform:
   m_LocalScale: {x: 1.342, y: 1.342, z: 1.342}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 4
+  m_RootOrder: 3
   m_LocalEulerAnglesHint: {x: 0.011000001, y: 0.25, z: -1.6790001}
 --- !u!1 &1661175174
 GameObject:
@@ -484,7 +540,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 3
+  m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1802370460
 GameObject:
@@ -498,6 +554,7 @@ GameObject:
   - component: {fileID: 1802370462}
   - component: {fileID: 1802370461}
   - component: {fileID: 1802370464}
+  - component: {fileID: 1802370465}
   m_Layer: 0
   m_Name: Main Camera
   m_TagString: MainCamera
@@ -581,6 +638,26 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 279ab466c3f8bc1439168a324b601438, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  animator: {fileID: 1802370465}
+--- !u!95 &1802370465
+Animator:
+  serializedVersion: 3
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1802370460}
+  m_Enabled: 0
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 0}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorControllerStateOnDisable: 0
 --- !u!1 &1934146215
 GameObject:
   m_ObjectHideFlags: 0
@@ -851,6 +928,16 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Pivot.y
       value: 0.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 252037991501469482, guid: 4ddb3742811de74488dd22d43cae45fa,
+        type: 3}
+      propertyPath: m_Color.a
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 252037991501469482, guid: 4ddb3742811de74488dd22d43cae45fa,
+        type: 3}
+      propertyPath: m_Enabled
+      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 4ddb3742811de74488dd22d43cae45fa, type: 3}
