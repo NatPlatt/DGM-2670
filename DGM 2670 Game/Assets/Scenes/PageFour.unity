@@ -203,6 +203,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: FadeImage
       objectReference: {fileID: 0}
+    - target: {fileID: 252037991501469481, guid: 4ddb3742811de74488dd22d43cae45fa,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 252037991501469480, guid: 4ddb3742811de74488dd22d43cae45fa,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -495,9 +500,9 @@ RectTransform:
   m_Father: {fileID: 1680819126}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0.5, y: 0.5}
-  m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 182, y: -195}
+  m_AnchorMin: {x: 1, y: 0}
+  m_AnchorMax: {x: 1, y: 0}
+  m_AnchoredPosition: {x: -80, y: 15}
   m_SizeDelta: {x: 160, y: 30}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &378005788
@@ -925,6 +930,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 279ab466c3f8bc1439168a324b601438, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  animator: {fileID: 0}
 --- !u!1 &1680819122
 GameObject:
   m_ObjectHideFlags: 0
