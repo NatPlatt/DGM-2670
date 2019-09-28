@@ -26,6 +26,7 @@
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/TriggerEventBehavior.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/followPlayer.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/PlayerController.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/DragController.cs" root0="FORCE_HIGHLIGHTING" />
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
@@ -49,6 +50,7 @@
         <option value="$PROJECT_DIR$/Assets/Scripts/IntData.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/CharacterMover.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/SceneChange.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/DragController.cs" />
       </list>
     </option>
   </component>
@@ -122,6 +124,7 @@
       <workItem from="1568838258926" duration="1047000" />
       <workItem from="1569268185478" duration="3314000" />
       <workItem from="1569510008428" duration="1576000" />
+      <workItem from="1569690936062" duration="343000" />
     </task>
     <servers />
   </component>
@@ -145,6 +148,10 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="LOCAL_CHANGES_DETAILS_PREVIEW_SHOWN" value="true" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="1134" y="339" key="RiderGenerateDialog" />
+    <state x="1134" y="339" key="RiderGenerateDialog/1920.1080" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

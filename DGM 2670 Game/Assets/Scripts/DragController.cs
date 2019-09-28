@@ -12,7 +12,9 @@ public class DragController : MonoBehaviour, IBeginDragHandler,IDragHandler,IEnd
     
     public void OnBeginDrag(PointerEventData eventData)
     {
-        throw new System.NotImplementedException();
+        if (gameObject != null) myDragSprite = gameObject;
+        startPosition = transform.position;
+        zDistance = Mathf.Abs(startPosition.z - Camera.main.transform.position.z);
     }
 
     public void OnDrag(PointerEventData eventData)
