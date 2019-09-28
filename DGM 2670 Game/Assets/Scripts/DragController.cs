@@ -21,7 +21,12 @@ public class DragController : MonoBehaviour, IBeginDragHandler,IDragHandler,IEnd
 
     public void OnDrag(PointerEventData eventData)
     {
-        throw new System.NotImplementedException();
+        if (Input.touchCount > 1)
+            return;
+        {
+            transform.position = Camera.main.ScreenToWorldPoint
+                (new Vector3(Input.mousePosition.x, Input.mousePosition.y, zDistance));
+        }
     }
 
     public void OnEndDrag(PointerEventData eventData)
