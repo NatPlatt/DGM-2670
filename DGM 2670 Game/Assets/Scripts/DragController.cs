@@ -15,6 +15,8 @@ public class DragController : MonoBehaviour, IBeginDragHandler,IDragHandler,IEnd
         if (gameObject != null) myDragSprite = gameObject;
         startPosition = transform.position;
         zDistance = Mathf.Abs(startPosition.z - Camera.main.transform.position.z);
+        touchOffset = startPosition - Camera.main.ScreenToWorldPoint
+                          (new Vector3(Input.mousePosition.x, Input.mousePosition.y, zDistance));
     }
 
     public void OnDrag(PointerEventData eventData)
