@@ -31,6 +31,7 @@ public class DragController : MonoBehaviour, IBeginDragHandler,IDragHandler,IEnd
 
     public void OnEndDrag(PointerEventData eventData)
     {
-        throw new System.NotImplementedException();
+        myDragSprite = null;
+        touchOffset = Vector3.zero;
     }
 }
