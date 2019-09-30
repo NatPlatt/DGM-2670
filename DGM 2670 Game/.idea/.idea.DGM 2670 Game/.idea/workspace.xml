@@ -37,7 +37,6 @@
       <list>
         <option value="$PROJECT_DIR$/Assets/FloatData.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/TriggerBehavior.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/capsuleCreate.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/followPlayer.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/outOfBounds.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/GameActionHandler.cs" />
@@ -56,6 +55,7 @@
         <option value="$PROJECT_DIR$/Assets/Scripts/SceneChange.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/DragController.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/AIWithNavMesh.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/capsuleCreate.cs" />
       </list>
     </option>
   </component>
@@ -132,6 +132,7 @@
       <workItem from="1569510008428" duration="1576000" />
       <workItem from="1569690936062" duration="1107000" />
       <workItem from="1569872151324" duration="2086000" />
+      <workItem from="1569874811331" duration="775000" />
     </task>
     <servers />
   </component>
