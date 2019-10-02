@@ -12,6 +12,7 @@
           <e p="AIWithNavMesh.cs" t="Include" />
           <e p="capsuleCreate.cs" t="Include" />
           <e p="CharacterMover.cs" t="Include" />
+          <e p="Coroutines.cs" t="Include" />
           <e p="DragController.cs" t="Include" />
           <e p="eventsWithArgs.cs" t="Include" />
           <e p="FloatData.cs" t="Include" />

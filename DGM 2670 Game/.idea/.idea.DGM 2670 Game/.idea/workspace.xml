@@ -29,6 +29,7 @@
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/eventsWithArgs.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/actionCalls.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/PlayerController.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Coroutines.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/outOfBounds.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/IntData.cs" root0="FORCE_HIGHLIGHTING" />
   </component>
@@ -56,6 +57,7 @@
         <option value="$PROJECT_DIR$/Assets/Scripts/DragController.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/AIWithNavMesh.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/capsuleCreate.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Coroutines.cs" />
       </list>
     </option>
   </component>
@@ -133,6 +135,7 @@
       <workItem from="1569690936062" duration="1107000" />
       <workItem from="1569872151324" duration="2086000" />
       <workItem from="1569874811331" duration="775000" />
+      <workItem from="1570043216173" duration="383000" />
     </task>
     <servers />
   </component>
