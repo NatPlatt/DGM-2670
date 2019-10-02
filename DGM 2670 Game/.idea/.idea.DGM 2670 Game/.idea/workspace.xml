@@ -52,7 +52,6 @@
         <option value="$PROJECT_DIR$/Assets/Scripts/FloatData.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/actionCalls.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/eventsWithArgs.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/IntData.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/CharacterMover.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/SceneChange.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/DragController.cs" />
@@ -60,6 +59,7 @@
         <option value="$PROJECT_DIR$/Assets/Scripts/capsuleCreate.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Coroutines.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/CoroutineAgain.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/IntData.cs" />
       </list>
     </option>
   </component>
@@ -137,7 +137,7 @@
       <workItem from="1569690936062" duration="1107000" />
       <workItem from="1569872151324" duration="2086000" />
       <workItem from="1569874811331" duration="775000" />
-      <workItem from="1570043216173" duration="3344000" />
+      <workItem from="1570043216173" duration="3832000" />
     </task>
     <servers />
   </component>
