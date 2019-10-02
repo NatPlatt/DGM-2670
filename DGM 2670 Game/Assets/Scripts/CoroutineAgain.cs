@@ -16,6 +16,11 @@ public class CoroutineAgain : MonoBehaviour
       wfs = new WaitForSeconds(holdTime);
    }
 
+   public void Run()
+   {
+      StartCoroutine(OnStart());
+   }
+   
    private IEnumerator OnStart()
    {
       while (canRun)
