@@ -27,6 +27,7 @@
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/followPlayer.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/capsuleCreate.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/eventsWithArgs.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/CoroutineAgain.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/actionCalls.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/PlayerController.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Coroutines.cs" root0="FORCE_HIGHLIGHTING" />
@@ -58,6 +59,7 @@
         <option value="$PROJECT_DIR$/Assets/Scripts/AIWithNavMesh.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/capsuleCreate.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Coroutines.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/CoroutineAgain.cs" />
       </list>
     </option>
   </component>
@@ -135,7 +137,7 @@
       <workItem from="1569690936062" duration="1107000" />
       <workItem from="1569872151324" duration="2086000" />
       <workItem from="1569874811331" duration="775000" />
-      <workItem from="1570043216173" duration="1729000" />
+      <workItem from="1570043216173" duration="2973000" />
     </task>
     <servers />
   </component>
