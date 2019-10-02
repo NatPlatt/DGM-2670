@@ -4,11 +4,12 @@ using UnityEngine;
 
 public class Coroutines : MonoBehaviour
 {
-    // Start is called before the first frame update
+    public Vector3 location;
     IEnumerator Start()
     {
         yield return new WaitForSeconds(2);
         print("ran");
+        transform.position += location;
     }
 
     // Update is called once per frame
