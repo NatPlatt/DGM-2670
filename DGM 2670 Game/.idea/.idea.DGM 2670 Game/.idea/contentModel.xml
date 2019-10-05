@@ -10,6 +10,7 @@
           <e p="actionCalls.cs" t="Include" />
           <e p="ActionPractice.cs" t="Include" />
           <e p="AIWithNavMesh.cs" t="Include" />
+          <e p="AnimStart.cs" t="Include" />
           <e p="capsuleCreate.cs" t="Include" />
           <e p="CharacterMover.cs" t="Include" />
           <e p="CoroutineAgain.cs" t="Include" />

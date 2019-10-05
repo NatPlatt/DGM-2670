@@ -7,7 +7,7 @@ using UnityEngine.Events;
 public class TriggerEventBehavior : MonoBehaviour
 {
     public FloatData data;
-
+    
     public UnityEvent triggerEnterEvents, triggerStayEvent;
     private void OnTriggerEnter(Collider other)
     {
