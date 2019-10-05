@@ -6,6 +6,13 @@ using UnityEngine;
 public class AnimStart : MonoBehaviour
 {
     public Animator anim;
+    public WaitForSeconds wfs;
+    private float holdTime = .1f;
+
+    private void Awake()
+    {
+        wfs = new WaitForSeconds(holdTime);
+    }
 
     private void Start()
     {
@@ -13,8 +20,18 @@ public class AnimStart : MonoBehaviour
         anim.enabled = false;
     }
 
-    private void OnMouseDown()
+    private void Update()
+    {
+        if (Input.GetMouseButtonDown(0))
+        {
+            anim.enabled = true;
+        }
+
+        
+    }
+
+    /*private void OnMouseDown()
     {
         anim.enabled = true;
-    }
+    }*/
 }
