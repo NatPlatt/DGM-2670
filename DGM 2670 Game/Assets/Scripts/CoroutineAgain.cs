@@ -9,10 +9,10 @@ public class CoroutineAgain : MonoBehaviour
    private WaitForSeconds wfs;
    public float holdTime = 0.1f;
 
-   public bool CanRun { get; set; } = true;
+ //  public bool CanRun { get; set; } = true;
 
 
-   public UnityEvent OnRunEvent;
+ /*  public UnityEvent OnRunEvent;
    
    private void Awake()
    {
@@ -24,7 +24,7 @@ public class CoroutineAgain : MonoBehaviour
       StartCoroutine(OnStart());
    }
    
-   private IEnumerator OnStart()
+  private IEnumerator OnStart()
    {
       while (CanRun)
       {
@@ -32,5 +32,5 @@ public class CoroutineAgain : MonoBehaviour
          OnRunEvent.Invoke();
          yield return wfs;
       } 
-   }
+   }*/
 }
