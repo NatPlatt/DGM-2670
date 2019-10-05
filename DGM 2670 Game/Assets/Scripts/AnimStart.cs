@@ -21,10 +21,12 @@ public class AnimStart : MonoBehaviour
     {
         if (Input.GetMouseButtonDown(0))
         {
-            Vector3 pos = Camera.main.ScreenToWorldPoint(Input.mousePosition);
+            anim.enabled = true;
+
+            /*Vector3 pos = Camera.main.ScreenToWorldPoint(Input.mousePosition);
             Collider coll = character.GetComponent<Collider>();
             
-            /*if (coll.OverlapPoint(pos))
+            if (coll.OverlapPoint(pos))
             {anim.enabled = true;}*/
             //isAnimated = true;
         }
