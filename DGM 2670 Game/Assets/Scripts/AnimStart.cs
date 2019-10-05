@@ -5,10 +5,10 @@ using UnityEngine;
 
 public class AnimStart : MonoBehaviour
 {
-    public Animator anim;
+    public Animator anim = null;
 
     private bool isAnimated = false;
-
+    public GameObject character = null;
     public string animName;
     
     private void Start()
@@ -21,8 +21,11 @@ public class AnimStart : MonoBehaviour
     {
         if (Input.GetMouseButtonDown(0))
         {
+            Vector3 pos = Camera.main.ScreenToWorldPoint(Input.mousePosition);
+            Collider coll = character.GetComponent<Collider>();
             
-            anim.enabled = true;
+            /*if (coll.OverlapPoint(pos))
+            {anim.enabled = true;}*/
             //isAnimated = true;
         }
        /* else
