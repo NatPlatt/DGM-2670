@@ -5,24 +5,26 @@ using UnityEngine;
 
 public class AnimStart : MonoBehaviour
 {
-    public Animator anim = null;
-
-    //private bool isAnimated = false;
-    //public GameObject character = null;
-    //public string animName;
+   
     public GameAction gameActionObj;
     
-   /* private void Start()
-    {
-        anim = GetComponent<Animator>();
-        anim.enabled = false;
-    }*/
-
     private void OnMouseDown()
     {
         gameActionObj.Raise();
     }
 
+     //public Animator anim = null;
+    
+        //private bool isAnimated = false;
+        //public GameObject character = null;
+        //public string animName;
+    
+    /* private void Start()
+    {
+        anim = GetComponent<Animator>();
+        anim.enabled = false;
+    }*/
+    
     /*private void Update()
     {
         if (Input.GetMouseButtonDown(0))
