@@ -10,13 +10,19 @@ public class AnimStart : MonoBehaviour
     private bool isAnimated = false;
     public GameObject character = null;
     public string animName;
+    public GameAction gameActionObj;
     
     private void Start()
     {
         anim = GetComponent<Animator>();
         anim.enabled = false;
     }
-    
+
+    private void OnMouseDown()
+    {
+        gameActionObj.Raise();
+    }
+
     private void Update()
     {
         if (Input.GetMouseButtonDown(0))
@@ -51,8 +57,5 @@ public class AnimStart : MonoBehaviour
 
     }
 
-    /*private void OnMouseDown()
-    {
-        anim.enabled = true;
-    }*/
+    
 }
