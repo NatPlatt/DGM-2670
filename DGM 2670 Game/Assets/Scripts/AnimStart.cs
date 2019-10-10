@@ -7,23 +7,23 @@ public class AnimStart : MonoBehaviour
 {
     public Animator anim = null;
 
-    private bool isAnimated = false;
-    public GameObject character = null;
-    public string animName;
+    //private bool isAnimated = false;
+    //public GameObject character = null;
+    //public string animName;
     public GameAction gameActionObj;
     
-    private void Start()
+   /* private void Start()
     {
         anim = GetComponent<Animator>();
         anim.enabled = false;
-    }
+    }*/
 
     private void OnMouseDown()
     {
         gameActionObj.Raise();
     }
 
-    private void Update()
+    /*private void Update()
     {
         if (Input.GetMouseButtonDown(0))
         {
@@ -35,7 +35,7 @@ public class AnimStart : MonoBehaviour
             if (coll.OverlapPoint(pos))
             {anim.enabled = true;}*/
             //isAnimated = true;
-        }
+        
        /* else
         {
             isAnimated = false;
@@ -53,9 +53,5 @@ public class AnimStart : MonoBehaviour
             //anim.SetBool(animName, false);
             anim.enabled = false;
         }*/
-
-
-    }
-
-    
+       
 }

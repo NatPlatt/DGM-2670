@@ -5,10 +5,8 @@ using UnityEngine;
 
 public class LittleBoyAnim : MonoBehaviour
 {
-    public GameAction gameActionObj;
-
-    private void OnMouseDown()
+    public void StartAnim()
     {
-        gameActionObj.Raise();
+        print(message:"Boy is animating");
     }
 }

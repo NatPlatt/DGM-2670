@@ -34,7 +34,7 @@
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/GameActionHandler.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/outOfBounds.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/CoroutineAgain.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Scripts/littleBoyAnim.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/LittleBoyAnim.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/DragController.cs" root0="FORCE_HIGHLIGHTING" />
   </component>
   <component name="IdeDocumentHistory">
@@ -64,6 +64,7 @@
         <option value="$PROJECT_DIR$/Assets/Scripts/CoroutineAgain.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/TriggerEventBehavior.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Collections.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/littleBoyAnim.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/AnimStart.cs" />
       </list>
     </option>
@@ -146,7 +147,7 @@
       <workItem from="1570247719592" duration="276000" />
       <workItem from="1570289311808" duration="5420000" />
       <workItem from="1570477918549" duration="1649000" />
-      <workItem from="1570722958363" duration="769000" />
+      <workItem from="1570722958363" duration="1740000" />
     </task>
     <servers />
   </component>
