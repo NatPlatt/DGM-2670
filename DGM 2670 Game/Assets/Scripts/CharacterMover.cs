@@ -2,7 +2,6 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-[RequireComponent(typeof(CharacterController))]
 [CreateAssetMenu]
 public class CharacterMover : ScriptableObject
 {
@@ -12,12 +11,7 @@ public class CharacterMover : ScriptableObject
     
     public IntData jumpData;
     
-    void Start()
-    {
-        controller = GetComponent<CharacterController>();
-    }
-    
-    void Update()
+    public void MoveCharacter(CharacterController controller)
     {
         position.x = moveSpeed * Input.GetAxis("Horizontal");
         position.z = moveSpeed * Input.GetAxis("Vertical");
