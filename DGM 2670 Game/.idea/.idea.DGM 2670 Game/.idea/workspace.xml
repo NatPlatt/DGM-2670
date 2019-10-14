@@ -40,6 +40,7 @@
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Collections.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/DragController.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/actionCalls.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/CreateSOData.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/IntData.cs" root0="FORCE_HIGHLIGHTING" />
   </component>
   <component name="IdeDocumentHistory">
@@ -75,6 +76,7 @@
         <option value="$PROJECT_DIR$/Assets/Scripts/AnimController.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Debugger.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/MouseEvents.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/CreateSOData.cs" />
       </list>
     </option>
   </component>
@@ -157,7 +159,7 @@
       <workItem from="1570289311808" duration="5420000" />
       <workItem from="1570477918549" duration="1649000" />
       <workItem from="1570722958363" duration="3090000" />
-      <workItem from="1571080511302" duration="3525000" />
+      <workItem from="1571080511302" duration="4572000" />
     </task>
     <servers />
   </component>

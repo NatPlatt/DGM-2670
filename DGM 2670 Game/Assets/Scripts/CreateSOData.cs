@@ -4,11 +4,11 @@ using UnityEngine;
 
 public class CreateSOData : MonoBehaviour
 {
-    // Start is called before the first frame update
+    public IntData data;
+    private IntData newData;
     void Start()
     {
-        
+        newData = Instantiate(data);
     }
-
     
 }
