@@ -3,7 +3,8 @@ using System.Collections.Generic;
 using UnityEngine;
 
 [RequireComponent(typeof(CharacterController))]
-public class CharacterMover : MonoBehaviour
+[CreateAssetMenu]
+public class CharacterMover : ScriptableObject
 {
     public float moveSpeed = 10f, jumpSpeed = 30f, gravity = 3f;
     private CharacterController controller;

@@ -11,6 +11,7 @@ public class AnimStart : MonoBehaviour
     private void OnMouseDown()
     {
         gameActionObj.Raise();
+        print("Character is animating");
     }
 
      //public Animator anim = null;
