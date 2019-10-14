@@ -10,6 +10,6 @@ public class MouseEvents : MonoBehaviour
     private void OnMouseDown()
     {
         MouseDownEvent.Invoke();
-        MouseDownEvent.RemoveAllListeners();
+        MouseDownEvent.RemoveAllListeners(); //doesn't work yet
     }
 }

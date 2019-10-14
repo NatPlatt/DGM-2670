@@ -17,6 +17,8 @@
           <e p="Collections.cs" t="Include" />
           <e p="CoroutineAgain.cs" t="Include" />
           <e p="Coroutines.cs" t="Include" />
+          <e p="CreateSOData.cs" t="Include" />
+          <e p="Debugger.cs" t="Include" />
           <e p="DragController.cs" t="Include" />
           <e p="eventsWithArgs.cs" t="Include" />
           <e p="FloatData.cs" t="Include" />

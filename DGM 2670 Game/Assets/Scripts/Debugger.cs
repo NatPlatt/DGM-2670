@@ -2,17 +2,16 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-public class Debugger : MonoBehaviour
+[CreateAssetMenu]
+public class Debugger : ScriptableObject
 {
-    // Start is called before the first frame update
-    void Start()
+    public void OnDebug(string message)
     {
-        
+        Debug.Log(message);
     }
 
-    // Update is called once per frame
-    void Update()
+    public void OnDebug(int number)
     {
-        
+        Debug.Log(number);
     }
 }
