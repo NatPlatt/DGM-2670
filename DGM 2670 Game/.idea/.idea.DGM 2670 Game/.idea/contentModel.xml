@@ -10,6 +10,7 @@
           <e p="actionCalls.cs" t="Include" />
           <e p="ActionPractice.cs" t="Include" />
           <e p="AIWithNavMesh.cs" t="Include" />
+          <e p="AnimController.cs" t="Include" />
           <e p="AnimStart.cs" t="Include" />
           <e p="capsuleCreate.cs" t="Include" />
           <e p="CharacterMover.cs" t="Include" />
@@ -25,12 +26,14 @@
           <e p="ImageController.cs" t="Include" />
           <e p="IntData.cs" t="Include" />
           <e p="littleBoyAnim.cs" t="Include" />
+          <e p="MouseEvents.cs" t="Include" />
           <e p="NewBehaviourScript.cs" t="Include" />
           <e p="outOfBounds.cs" t="Include" />
           <e p="PlayerController.cs" t="Include" />
           <e p="SceneChange.cs" t="Include" />
           <e p="TransformController.cs" t="Include" />
           <e p="TriggerEventBehavior.cs" t="Include" />
+          <e p="UpdateEvent.cs" t="Include" />
         </e>
       </e>
       <e p="DGM 2670 Game.sln" t="IncludeFlat" />
