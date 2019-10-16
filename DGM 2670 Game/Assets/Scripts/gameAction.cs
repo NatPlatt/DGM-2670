@@ -8,6 +8,7 @@ public class GameAction : ScriptableObject
 
 {
     public UnityAction action;
+    public UnityAction<Transform> transformAction;
 
     public void Raise()
     {
@@ -16,5 +17,10 @@ public class GameAction : ScriptableObject
             action();
         }
      
+    }
+
+    public void Raise(Transform transformObj)
+    {
+        transformAction.Invoke(transformObj);
     }
 }
