@@ -7,15 +7,19 @@ public class EventListening : MonoBehaviour
 {
     private UnityEvent mouseClickEvent = new UnityEvent();
     public Object IRunObj;
+    public IRun newIRunObj;
 
     private void Start()
     {
-       // mouseClickEvent.AddListener(MouseClick);
+       
+       newIRunObj = IRunObj as IRun; 
+       mouseClickEvent.AddListener(newIRunObj.Run);
     }
     
 
     private void OnMouseDown()
     {
         mouseClickEvent.Invoke();
+        mouseClickEvent.RemoveListener(newIRunObj.Run);
     }
 }
