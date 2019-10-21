@@ -82,7 +82,6 @@
         <option value="$PROJECT_DIR$/Assets/Scripts/Debugger.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/MouseEvents.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/CreateSOData.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/EventListening.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/MonoEventBehaviors.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/gameAction.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Instancer.cs" />
@@ -91,6 +90,7 @@
         <option value="$PROJECT_DIR$/Assets/Scripts/Powerup.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/PlayerHealth.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/AIWithNavMesh.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/EventListening.cs" />
       </list>
     </option>
   </component>
@@ -175,7 +175,7 @@
       <workItem from="1570722958363" duration="3090000" />
       <workItem from="1571080511302" duration="4572000" />
       <workItem from="1571252500864" duration="4550000" />
-      <workItem from="1571686546051" duration="1049000" />
+      <workItem from="1571686546051" duration="1405000" />
     </task>
     <servers />
   </component>

@@ -6,18 +6,13 @@ using UnityEngine.UI;
 public class EventListening : MonoBehaviour
 {
     private UnityEvent mouseClickEvent = new UnityEvent();
-    public UnityEvent configuredMouseEvent;
+    public Object IRunObj;
 
     private void Start()
     {
-        mouseClickEvent.AddListener(MouseClick);
+       // mouseClickEvent.AddListener(MouseClick);
     }
-
-    private void MouseClick()
-    {
-        configuredMouseEvent.Invoke();
-        mouseClickEvent.RemoveListener(MouseClick);
-    }
+    
 
     private void OnMouseDown()
     {
