@@ -11,6 +11,7 @@ public class TriggerEventListener : MonoBehaviour, IListen
     public Object IRunObj;
     public void Start()
     {
+        Event = new UnityEvent();
         NewIRunObj = IRunObj as IRun; 
         Event.AddListener(NewIRunObj.Run);
     }
@@ -19,6 +20,7 @@ public class TriggerEventListener : MonoBehaviour, IListen
 
     private void OnTriggerEnter(Collider other)
     {
-        
+        Event.Invoke();
+        Event.RemoveListener(NewIRunObj.Run);
     }
 }

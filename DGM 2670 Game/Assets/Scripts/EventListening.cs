@@ -11,6 +11,7 @@ public class EventListening : MonoBehaviour, IListen
 
     public void Start()
     {
+        Event = new UnityEvent();
         NewIRunObj = IRunObj as IRun; 
        Event.AddListener(NewIRunObj.Run);
     }

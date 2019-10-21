@@ -1,5 +1,6 @@
 ﻿
 
+using UnityEngine;
 using UnityEngine.Events;
 
 public interface IRun
@@ -20,4 +21,9 @@ public interface IListen
     IRun NewIRunObj { get; set; }
     void Start();
     UnityEvent Event { get; set; }
+}
+
+public interface ITrigger
+{
+    void OnTriggerEnter(Collider obj);
 }
