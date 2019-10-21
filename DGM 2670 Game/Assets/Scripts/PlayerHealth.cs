@@ -1,11 +1,11 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
-[CreateAssetMenu]
-public class Powerup : ScriptableObject, IRun
+
+public class PlayerHealth : ScriptableObject, IRun
 {
     public void Run()
     {
-        Debug.Log("powerup");
+        Debug.Log("oh no my health");
     }
 }
