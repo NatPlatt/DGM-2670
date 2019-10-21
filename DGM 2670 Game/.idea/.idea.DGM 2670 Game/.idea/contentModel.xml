@@ -30,12 +30,14 @@
           <e p="ImageController.cs" t="Include" />
           <e p="Instancer.cs" t="Include" />
           <e p="IntData.cs" t="Include" />
+          <e p="IRun.cs" t="Include" />
           <e p="littleBoyAnim.cs" t="Include" />
           <e p="MonoEventBehaviors.cs" t="Include" />
           <e p="MouseEvents.cs" t="Include" />
           <e p="NewBehaviourScript.cs" t="Include" />
           <e p="outOfBounds.cs" t="Include" />
           <e p="PlayerController.cs" t="Include" />
+          <e p="Powerup.cs" t="Include" />
           <e p="SceneChange.cs" t="Include" />
           <e p="TransformController.cs" t="Include" />
           <e p="TriggerEventBehavior.cs" t="Include" />
