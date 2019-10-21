@@ -5,7 +5,7 @@ using UnityEngine;
 using UnityEngine.AI;
 
 [RequireComponent(typeof(NavMeshAgent))]
-public class AIWithNavMesh : MonoBehaviour
+public class AIWithNavMesh : MonoBehaviour, IRun
 {
     private NavMeshAgent agent;
     public Transform player, destination;
@@ -26,5 +26,15 @@ public class AIWithNavMesh : MonoBehaviour
     {
         destination = player;
         //could call an animation here
+    }
+
+    public void Run()
+    {
+        
+    }
+
+    public void Run(float f)
+    {
+        throw new NotImplementedException();
     }
 }

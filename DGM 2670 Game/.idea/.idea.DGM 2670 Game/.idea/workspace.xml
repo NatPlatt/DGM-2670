@@ -37,6 +37,7 @@
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/GameActionHandler.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/MonoEventBehaviors.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/AIWithNavMesh.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/PlayerHealth.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/ImageController.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/followPlayer.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/capsuleCreate.cs" root0="FORCE_HIGHLIGHTING" />
@@ -89,6 +90,7 @@
         <option value="$PROJECT_DIR$/Assets/Scripts/CineMachineController.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/IRun.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Powerup.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/PlayerHealth.cs" />
       </list>
     </option>
   </component>
@@ -173,7 +175,7 @@
       <workItem from="1570722958363" duration="3090000" />
       <workItem from="1571080511302" duration="4572000" />
       <workItem from="1571252500864" duration="4550000" />
-      <workItem from="1571686546051" duration="397000" />
+      <workItem from="1571686546051" duration="709000" />
     </task>
     <servers />
   </component>
