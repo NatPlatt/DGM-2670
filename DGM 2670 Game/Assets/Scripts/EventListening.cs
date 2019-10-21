@@ -3,23 +3,23 @@ using UnityEngine;
 using UnityEngine.Events;
 using UnityEngine.UI;
 
-public class EventListening : MonoBehaviour
+public class EventListening : MonoBehaviour, IListen
 {
-    private UnityEvent mouseClickEvent = new UnityEvent();
     public Object IRunObj;
-    public IRun newIRunObj;
-
-    private void Start()
-    {
-       
-       newIRunObj = IRunObj as IRun; 
-       mouseClickEvent.AddListener(newIRunObj.Run);
-    }
     
+    public IRun NewIRunObj { get; set; }
 
+    public void Start()
+    {
+        NewIRunObj = IRunObj as IRun; 
+       Event.AddListener(NewIRunObj.Run);
+    }
+
+    public UnityEvent Event { get; set; }
+    
     private void OnMouseDown()
     {
-        mouseClickEvent.Invoke();
-        mouseClickEvent.RemoveListener(newIRunObj.Run);
+        Event.Invoke();
+        Event.RemoveListener(NewIRunObj.Run);
     }
 }

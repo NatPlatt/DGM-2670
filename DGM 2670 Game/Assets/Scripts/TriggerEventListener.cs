@@ -1,17 +1,23 @@
-﻿using System.Collections;
+﻿using System;
+using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.Events;
+using Object = System.Object;
 
-public class TriggerEventListener : MonoBehaviour
+public class TriggerEventListener : MonoBehaviour, IListen
 {
-    // Start is called before the first frame update
-    void Start()
+    public IRun NewIRunObj { get; set; }
+    public Object IRunObj;
+    public void Start()
     {
-        
+        NewIRunObj = IRunObj as IRun; 
+        Event.AddListener(NewIRunObj.Run);
     }
 
-    // Update is called once per frame
-    void Update()
+    public UnityEvent Event { get; set; }
+
+    private void OnTriggerEnter(Collider other)
     {
         
     }

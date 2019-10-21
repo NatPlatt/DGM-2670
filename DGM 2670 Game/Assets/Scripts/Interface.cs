@@ -1,5 +1,7 @@
 ﻿
 
+using UnityEngine.Events;
+
 public interface IRun
 {
     float Speed { get; set; }
@@ -11,4 +13,11 @@ public interface IRun
 public interface ITest
 {
     void Test();
+}
+
+public interface IListen
+{ 
+    IRun NewIRunObj { get; set; }
+    void Start();
+    UnityEvent Event { get; set; }
 }

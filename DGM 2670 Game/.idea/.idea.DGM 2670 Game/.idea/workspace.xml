@@ -16,7 +16,7 @@
   </component>
   <component name="HighlightingSettingsPerFile">
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Powerup.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Scripts/TriggerEventListener.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/TriggerEventListener.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/ActionPractice.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/CharacterMover.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/gameAction.cs" root0="FORCE_HIGHLIGHTING" />
@@ -24,7 +24,7 @@
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/EventListening.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/AnimStart.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/SceneChange.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Scripts/IRun.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Interface.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/MouseEvents.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/eventsWithArgs.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/LittleBoyAnim.cs" root0="FORCE_HIGHLIGHTING" />
@@ -87,10 +87,12 @@
         <option value="$PROJECT_DIR$/Assets/Scripts/gameAction.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Instancer.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/CineMachineController.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/IRun.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Powerup.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/PlayerHealth.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/AIWithNavMesh.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/IRun.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Interface.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/TriggerEventListener.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/EventListening.cs" />
       </list>
     </option>
@@ -176,7 +178,7 @@
       <workItem from="1570722958363" duration="3090000" />
       <workItem from="1571080511302" duration="4572000" />
       <workItem from="1571252500864" duration="4550000" />
-      <workItem from="1571686546051" duration="2463000" />
+      <workItem from="1571686546051" duration="3325000" />
     </task>
     <servers />
   </component>
