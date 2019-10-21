@@ -28,6 +28,8 @@ public class AIWithNavMesh : MonoBehaviour, IRun
         //could call an animation here
     }
 
+    public float Speed { get; set; }
+
     public void Run()
     {
         

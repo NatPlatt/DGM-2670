@@ -4,6 +4,8 @@ using UnityEngine;
 [CreateAssetMenu]
 public class Powerup : ScriptableObject, IRun, ITest
 {
+    public float Speed { get; set; }
+
     public void Run()
     {
         Debug.Log("powerup");
