@@ -30,6 +30,8 @@ public interface ITrigger
 
 public interface IMove
 {
+    Vector3 location { get; set; }
     void Move(CharacterController controller); 
+    
     //requires any character in the scene to have a character controller
 }
