@@ -6,6 +6,8 @@ using UnityEngine;
 public class MoveHVArrows : ScriptableObject, IMove
 {
     public Vector3 location { get; set; }
+    public ScriptableObject mover;
+    private IMove IMover;
 
     public void Move(CharacterController controller)
     {

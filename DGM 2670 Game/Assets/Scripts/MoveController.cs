@@ -6,9 +6,12 @@ using UnityEngine;
 public class MoveController : MonoBehaviour
 {
     private CharacterController controller;
+    public ScriptableObject mover;
+    private IMove IMover;
     void Start()
     {
         controller = GetComponent<CharacterController>();
+        IMover = mover as IMove;
     }
 
     // Update is called once per frame
