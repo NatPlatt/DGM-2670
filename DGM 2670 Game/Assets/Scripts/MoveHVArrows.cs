@@ -6,11 +6,11 @@ using UnityEngine;
 public class MoveHVArrows : ScriptableObject, IMove
 {
     public Vector3 location { get; set; }
-    public ScriptableObject mover;
-    private IMove IMover;
+    public Vector3 newLoc;
 
     public void Move(CharacterController controller)
     {
-        Debug.Log(name);
+       newLoc.x = Input.GetAxis("Vertical");
+       controller.Move(newLoc);
     }
 }

@@ -5,10 +5,11 @@ using UnityEngine;
 public class MoveLRArrows : ScriptableObject, IMove
 {
     public Vector3 location { get; set; }
+    public Vector3 newLoc;
 
     public void Move(CharacterController controller)
     {
-        location.Set(Input.GetAxis("Horizontal"), 0, 0);
-        controller.Move(location);
+        newLoc.y = Input.GetAxis("Horizontal");
+               controller.Move(newLoc);
     }
 }
