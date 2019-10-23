@@ -14,9 +14,13 @@ public class MoveController : MonoBehaviour
         IMover = mover as IMove;
     }
 
-    // Update is called once per frame
+    public void ChangeMover(ScriptableObject newMover)
+    {
+        IMover = newMover as IMove;
+    }
+    
     void Update()
     {
-        
+        IMover.Move(controller);
     }
 }

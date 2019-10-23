@@ -96,10 +96,10 @@
         <option value="$PROJECT_DIR$/Assets/Scripts/TriggerEventListener.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/EventListening.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/SceneChange.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/MoveController.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Interface.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/MoveLRArrows.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/MoveHVArrows.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/MoveController.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/MoveLRArrows.cs" />
       </list>
     </option>
   </component>
@@ -186,7 +186,7 @@
       <workItem from="1571252500864" duration="4550000" />
       <workItem from="1571686546051" duration="4262000" />
       <workItem from="1571856173688" duration="644000" />
-      <workItem from="1571857082949" duration="2482000" />
+      <workItem from="1571857082949" duration="3492000" />
     </task>
     <servers />
   </component>

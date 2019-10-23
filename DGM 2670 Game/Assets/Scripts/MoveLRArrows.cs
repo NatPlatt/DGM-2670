@@ -8,6 +8,7 @@ public class MoveLRArrows : ScriptableObject, IMove
 
     public void Move(CharacterController controller)
     {
-        Debug.Log(name);
+        location.Set(Input.GetAxis("Horizontal"), 0, 0);
+        controller.Move(location);
     }
 }
