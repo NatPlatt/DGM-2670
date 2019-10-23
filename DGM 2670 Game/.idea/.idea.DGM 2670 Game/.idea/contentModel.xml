@@ -34,6 +34,9 @@
           <e p="littleBoyAnim.cs" t="Include" />
           <e p="MonoEventBehaviors.cs" t="Include" />
           <e p="MouseEvents.cs" t="Include" />
+          <e p="MoveController.cs" t="Include" />
+          <e p="MoveHVArrows.cs" t="Include" />
+          <e p="MoveLRArrows.cs" t="Include" />
           <e p="NewBehaviourScript.cs" t="Include" />
           <e p="outOfBounds.cs" t="Include" />
           <e p="PlayerController.cs" t="Include" />
