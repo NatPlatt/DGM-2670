@@ -9,14 +9,19 @@ public class actionCalls : MonoBehaviour
     public float speed = 1f, rotateSpeed = 10f, scaleSpeed = 0.2f;
     private Vector3 location, rotations, scales;
     private UnityAction TransformAction;
+    public GameAction gameActionObj;
 
-    private void Start()
+   /* private void Start()
     {
         TransformAction = OnMove;
-    }
+    }*/
     private void OnMouseDown()
     {
-        if (TransformAction == OnMove)
+        gameActionObj.Raise();
+        print("Character is animating");
+    }
+        
+        /*if (TransformAction == OnMove)
         {
             TransformAction = OnRotate;
         }
@@ -50,5 +55,5 @@ public class actionCalls : MonoBehaviour
     {
         scales.Set(scaleSpeed,scaleSpeed,scaleSpeed);
         transform.localScale += scales;
-    }
+    }*/
 }
