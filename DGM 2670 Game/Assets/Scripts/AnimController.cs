@@ -9,5 +9,6 @@ public class AnimController : ScriptableObject
     public void AnimCall(Animator animator)
     {
         animator.SetTrigger(name);
+        Debug.Log("I am triggered");
     }
 }
