@@ -194,8 +194,8 @@ GameObject:
   - component: {fileID: 970006969}
   - component: {fileID: 970006968}
   - component: {fileID: 970006967}
-  - component: {fileID: 970006973}
   - component: {fileID: 970006972}
+  - component: {fileID: 970006973}
   m_Layer: 0
   m_Name: Cube
   m_TagString: Untagged
@@ -301,32 +301,21 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 970006966}
-  m_Enabled: 1
+  m_Enabled: 0
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 4bb28a3964ffae64f97c0d5f9d967b28, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  gameActionObj: {fileID: 0}
+  gameActionObj: {fileID: 11400000, guid: 1fc6c095397af4e46987ef47be44b3b1, type: 2}
   handlerEvent:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 970006973}
-        m_MethodName: 
-        m_Mode: 5
+      - m_Target: {fileID: 11400000, guid: c6d8d5b807f1a344ab472107eecb2672, type: 2}
+        m_MethodName: AnimCall
+        m_Mode: 2
         m_Arguments:
-          m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-          m_IntArgument: 0
-          m_FloatArgument: 0
-          m_StringArgument: 
-          m_BoolArgument: 0
-        m_CallState: 2
-      - m_Target: {fileID: 0}
-        m_MethodName: 
-        m_Mode: 1
-        m_Arguments:
-          m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: 
+          m_ObjectArgument: {fileID: 970006967}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Animator, UnityEngine
           m_IntArgument: 0
           m_FloatArgument: 0
           m_StringArgument: 
@@ -343,13 +332,11 @@ MonoBehaviour:
   m_GameObject: {fileID: 970006966}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: fcc1e033f5762a245bbeea74f548b579, type: 3}
+  m_Script: {fileID: 11500000, guid: dbfd13060e491fe47b87ec0c33b0b696, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  speed: 1
-  rotateSpeed: 10
-  scaleSpeed: 0.2
-  gameActionObj: {fileID: 0}
+  animator: {fileID: 970006967}
+  scriptObj: {fileID: 0}
 --- !u!1 &1671042262
 GameObject:
   m_ObjectHideFlags: 0

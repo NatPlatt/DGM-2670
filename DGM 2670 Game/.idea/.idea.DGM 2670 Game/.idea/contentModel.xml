@@ -15,6 +15,7 @@
           <e p="capsuleCreate.cs" t="Include" />
           <e p="CharacterMover.cs" t="Include" />
           <e p="CineMachineController.cs" t="Include" />
+          <e p="clickAnims.cs" t="Include" />
           <e p="Collections.cs" t="Include" />
           <e p="CoroutineAgain.cs" t="Include" />
           <e p="Coroutines.cs" t="Include" />

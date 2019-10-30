@@ -27,6 +27,7 @@
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/TriggerEventBehavior.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/followPlayer.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/IntData.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/clickAnims.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/PlayerController.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/AIWithNavMesh.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Collections.cs" root0="FORCE_HIGHLIGHTING" />
@@ -65,7 +66,6 @@
         <option value="$PROJECT_DIR$/Assets/Scripts/AnimStart.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/CharacterMover.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/UpdateEvent.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/AnimController.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Debugger.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/MouseEvents.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/CreateSOData.cs" />
@@ -85,6 +85,8 @@
         <option value="$PROJECT_DIR$/Assets/Scripts/MoveHVArrows.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/MoveLRArrows.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/actionCalls.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/AnimController.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/clickAnims.cs" />
       </list>
     </option>
   </component>
@@ -173,6 +175,7 @@
       <workItem from="1571856173688" duration="644000" />
       <workItem from="1571857082949" duration="4625000" />
       <workItem from="1572319744467" duration="1019000" />
+      <workItem from="1572405675963" duration="1123000" />
     </task>
     <servers />
   </component>
