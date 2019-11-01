@@ -364,6 +364,7 @@ GameObject:
   - component: {fileID: 621637093}
   - component: {fileID: 621637092}
   - component: {fileID: 621637091}
+  - component: {fileID: 621637094}
   m_Layer: 5
   m_Name: Button
   m_TagString: Untagged
@@ -482,6 +483,25 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 621637089}
   m_CullTransparentMesh: 0
+--- !u!95 &621637094
+Animator:
+  serializedVersion: 3
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 621637089}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: 1496e8a338e301643ae0f05c47fc1936, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorControllerStateOnDisable: 0
 --- !u!1 &986023943
 GameObject:
   m_ObjectHideFlags: 0
@@ -492,6 +512,7 @@ GameObject:
   m_Component:
   - component: {fileID: 986023945}
   - component: {fileID: 986023944}
+  - component: {fileID: 986023946}
   m_Layer: 0
   m_Name: manPage2
   m_TagString: Untagged
@@ -561,6 +582,25 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 5
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!95 &986023946
+Animator:
+  serializedVersion: 3
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 986023943}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: d6a270dd38d30954b98728af7694c697, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorControllerStateOnDisable: 0
 --- !u!1 &1198760999
 GameObject:
   m_ObjectHideFlags: 0

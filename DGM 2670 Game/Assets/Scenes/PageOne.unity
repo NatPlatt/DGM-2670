@@ -857,6 +857,7 @@ GameObject:
   - component: {fileID: 908634535}
   - component: {fileID: 908634533}
   - component: {fileID: 908634538}
+  - component: {fileID: 908634534}
   m_Layer: 0
   m_Name: littleBoyObj
   m_TagString: Untagged
@@ -883,6 +884,21 @@ Animator:
   m_HasTransformHierarchy: 1
   m_AllowConstantClipSamplingOptimization: 1
   m_KeepAnimatorControllerStateOnDisable: 0
+--- !u!114 &908634534
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 908634532}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: dbfd13060e491fe47b87ec0c33b0b696, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  animator: {fileID: 908634533}
+  scriptObj: {fileID: 0}
+  animation: {fileID: 0}
 --- !u!65 &908634535
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -1225,6 +1241,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1361562612}
   - component: {fileID: 1361562611}
+  - component: {fileID: 1361562613}
   m_Layer: 0
   m_Name: momPage1
   m_TagString: Untagged
@@ -1294,6 +1311,25 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 3
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!95 &1361562613
+Animator:
+  serializedVersion: 3
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1361562610}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: dfd92ef82b1990a4b95fd929f6446910, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorControllerStateOnDisable: 0
 --- !u!1 &1422685895
 GameObject:
   m_ObjectHideFlags: 0
@@ -1564,6 +1600,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1644478333}
   - component: {fileID: 1644478332}
+  - component: {fileID: 1644478334}
   m_Layer: 0
   m_Name: sailorManPage1
   m_TagString: Untagged
@@ -1633,6 +1670,25 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 6
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!95 &1644478334
+Animator:
+  serializedVersion: 3
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1644478331}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: 7da4ec15b88c75a45a745921cfa21acb, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorControllerStateOnDisable: 0
 --- !u!1 &1738871083
 GameObject:
   m_ObjectHideFlags: 0

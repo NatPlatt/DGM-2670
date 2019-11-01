@@ -203,6 +203,7 @@ GameObject:
   - component: {fileID: 511112212}
   - component: {fileID: 511112211}
   - component: {fileID: 511112210}
+  - component: {fileID: 511112213}
   m_Layer: 5
   m_Name: Button
   m_TagString: Untagged
@@ -272,9 +273,10 @@ MonoBehaviour:
       m_Calls:
       - m_Target: {fileID: 11400000, guid: e51baa79db4b5d04e8cf357e3843afd7, type: 2}
         m_MethodName: LoadScene
-        m_Mode: 5
+        m_Mode: 2
         m_Arguments:
-          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgument: {fileID: 102900000, guid: 33087a49fc57bdf4faeac5e004a20ec8,
+            type: 3}
           m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
           m_IntArgument: 0
           m_FloatArgument: 0
@@ -320,6 +322,25 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 511112208}
   m_CullTransparentMesh: 0
+--- !u!95 &511112213
+Animator:
+  serializedVersion: 3
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 511112208}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: 1496e8a338e301643ae0f05c47fc1936, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorControllerStateOnDisable: 0
 --- !u!1 &627234256
 GameObject:
   m_ObjectHideFlags: 0
@@ -620,6 +641,7 @@ GameObject:
   m_Component:
   - component: {fileID: 984258169}
   - component: {fileID: 984258168}
+  - component: {fileID: 984258170}
   m_Layer: 0
   m_Name: page3littleBug
   m_TagString: Untagged
@@ -689,6 +711,25 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 9
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!95 &984258170
+Animator:
+  serializedVersion: 3
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 984258167}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: bf025164d1d8c774e954a81e886f1ed2, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorControllerStateOnDisable: 0
 --- !u!1 &1156600027
 GameObject:
   m_ObjectHideFlags: 0

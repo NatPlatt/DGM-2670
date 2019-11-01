@@ -8,7 +8,7 @@ public class GameActionHandler : MonoBehaviour
     
     public GameAction gameActionObj;
     public UnityEvent handlerEvent;
-    void Start()
+    private void Start()
     {
         gameActionObj.action += Action;
     }
