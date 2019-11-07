@@ -1,4 +1,4 @@
-﻿using System;
+﻿
 using UnityEngine;
 
 public class Enemy : MonoBehaviour
@@ -28,6 +28,7 @@ public class Enemy : MonoBehaviour
         if (wavePointIndex >= PathPoints.points.Length - 1)
         {
             Destroy(gameObject);
+            return;
         }
         
         wavePointIndex++;
