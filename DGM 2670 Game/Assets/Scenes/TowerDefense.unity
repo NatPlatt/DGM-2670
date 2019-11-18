@@ -1775,6 +1775,7 @@ GameObject:
   - component: {fileID: 181897790}
   - component: {fileID: 181897792}
   - component: {fileID: 181897791}
+  - component: {fileID: 181897793}
   m_Layer: 0
   m_Name: Enemy
   m_TagString: Untagged
@@ -1842,6 +1843,40 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   mover: {fileID: 11400000, guid: e270a140838b66b489f5fc56884a00bd, type: 2}
+--- !u!114 &181897793
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 181897788}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d115921cabc79db449825e588a7e5900, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  data: {fileID: 0}
+  triggerEnterEvents:
+    m_PersistentCalls:
+      m_Calls:
+      - m_Target: {fileID: 181897790}
+        m_MethodName: MoveEnemy
+        m_Mode: 2
+        m_Arguments:
+          m_ObjectArgument: {fileID: 181897791}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.CharacterController, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+    m_TypeName: UnityEngine.Events.UnityEvent, UnityEngine.CoreModule, Version=0.0.0.0,
+      Culture=neutral, PublicKeyToken=null
+  triggerStayEvent:
+    m_PersistentCalls:
+      m_Calls: []
+    m_TypeName: UnityEngine.Events.UnityEvent, UnityEngine.CoreModule, Version=0.0.0.0,
+      Culture=neutral, PublicKeyToken=null
 --- !u!1001 &184079787
 PrefabInstance:
   m_ObjectHideFlags: 0
