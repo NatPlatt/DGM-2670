@@ -1773,8 +1773,6 @@ GameObject:
   m_Component:
   - component: {fileID: 181897789}
   - component: {fileID: 181897790}
-  - component: {fileID: 181897792}
-  - component: {fileID: 181897791}
   - component: {fileID: 181897793}
   m_Layer: 0
   m_Name: Enemy
@@ -1812,37 +1810,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   speed: 5
   controller: {fileID: 0}
---- !u!143 &181897791
-CharacterController:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 181897788}
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_Enabled: 1
-  serializedVersion: 2
-  m_Height: 2
-  m_Radius: 0.5
-  m_SlopeLimit: 45
-  m_StepOffset: 0.3
-  m_SkinWidth: 0.08
-  m_MinMoveDistance: 0.001
-  m_Center: {x: 0, y: 0, z: 0}
---- !u!114 &181897792
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 181897788}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: de31c98331ccb1c4c903eeddba84defa, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  mover: {fileID: 11400000, guid: e270a140838b66b489f5fc56884a00bd, type: 2}
 --- !u!114 &181897793
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1859,12 +1826,12 @@ MonoBehaviour:
   triggerEnterEvents:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 181897790}
-        m_MethodName: MoveEnemy
-        m_Mode: 2
+      - m_Target: {fileID: 11400000, guid: f5cc2b963f57f7a4c9ebe5ffa162d2b6, type: 2}
+        m_MethodName: MoveIt
+        m_Mode: 1
         m_Arguments:
-          m_ObjectArgument: {fileID: 181897791}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.CharacterController, UnityEngine
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
           m_IntArgument: 0
           m_FloatArgument: 0
           m_StringArgument: 
