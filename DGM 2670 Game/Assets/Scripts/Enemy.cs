@@ -7,12 +7,12 @@ public class Enemy : MonoBehaviour
 
     private Transform target;
     private int wavePointIndex = 0;
-    public CharacterController controller;
+    public CharacterController character;
     private Vector3 position;
     void Start()
     {
         target = PathPoints.points[0];
-        controller = GetComponent<CharacterController>();
+        character = GetComponent<CharacterController>();
     }
 
     public void MoveEnemy(CharacterController controller)
@@ -25,7 +25,7 @@ public class Enemy : MonoBehaviour
         //Vector3 dir = target.position - transform.position;
         //transform.Translate(dir.normalized * speed * Time.deltaTime, Space.World);
 
-        controller.Move(position * Time.deltaTime);
+        character.Move(position * Time.deltaTime);
         /*if (Vector3.Distance(transform.position, target.position) <= 0.2f)
         {
             GetNextPathPoint();
