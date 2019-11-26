@@ -44,6 +44,7 @@
           <e p="MoveLRArrows.cs" t="Include" />
           <e p="Mover.cs" t="Include" />
           <e p="MoveWithArrows.cs" t="Include" />
+          <e p="obstacles.cs" t="Include" />
           <e p="outOfBounds.cs" t="Include" />
           <e p="PathPoints.cs" t="Include" />
           <e p="PlayerController.cs" t="Include" />
