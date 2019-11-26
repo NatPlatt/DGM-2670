@@ -5,14 +5,26 @@ using UnityEngine;
 
 public class obstacles : MonoBehaviour
 {
-    public Animation obstacleAnim;
-    public Animator animController = ;
+    public GameObject Animation;
+    public string animName;
+    public Animator animController;
     private bool isTriggered = false;
+
+    private void Start()
+    {
+        Animation = GetComponent<GameObject>();
+    }
+
     public void OnTriggerEnter(Collider other)
     {
-        isTriggered = true;
+        
         print("I am triggered");
-        //obstacleAnim.Play();
-        var animControllerEnabled = animController.enabled;
+        IsAnimating();
+        
+    }
+
+    public void IsAnimating()
+    {
+        //Animator.Instantiate(Animation); need to fix
     }
 }
