@@ -69,7 +69,6 @@
         <option value="$PROJECT_DIR$/Assets/Scripts/TriggerEventBehavior.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Collections.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/littleBoyAnim.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/AnimStart.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/CharacterMover.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/UpdateEvent.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Debugger.cs" />
@@ -102,6 +101,7 @@
         <option value="$PROJECT_DIR$/Assets/Scripts/MoveWithArrows.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Enemy.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Draggable.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/AnimStart.cs" />
       </list>
     </option>
   </component>
@@ -197,6 +197,7 @@
       <workItem from="1573603436470" duration="1698000" />
       <workItem from="1574107675989" duration="993000" />
       <workItem from="1574203778877" duration="5790000" />
+      <workItem from="1574788221173" duration="748000" />
     </task>
     <servers />
   </component>

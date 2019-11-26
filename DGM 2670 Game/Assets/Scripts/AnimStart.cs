@@ -7,11 +7,20 @@ public class AnimStart : MonoBehaviour
 {
    
     public GameAction gameActionObj;
+    public float totalSpriteNum = 0f;  //assign the number of sprites in the scene in editor
+    public float singleSpriteNum = 0f;
     
-    private void OnMouseDown()
+    private void OnTriggerEnter()
     {
-        gameActionObj.Raise();
-        print("Character is animating");
+        if  (singleSpriteNum != totalSpriteNum)
+        {
+            singleSpriteNum++;
+        }
+        else
+        {
+            gameActionObj.Raise();
+            print("Character is animating");
+        }
     }
 
      //public Animator anim = null;
