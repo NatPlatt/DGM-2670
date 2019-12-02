@@ -9,18 +9,24 @@ public class GameAction : ScriptableObject
 {
     public UnityAction action;
     public UnityAction<Transform> transformAction;
+    public object call;
 
     public void Raise()
     {
         if (action != null)
         {
-            action();
+            action.Invoke();
         }
+        
      
     }
 
     public void Raise(Transform transformObj)
     {
-        transformAction.Invoke(transformObj);
+        if (transformAction != null)
+        {
+            transformAction.Invoke(transformObj);
+        }
+        
     }
 }
