@@ -371,7 +371,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 4bb28a3964ffae64f97c0d5f9d967b28, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  gameActionObj: {fileID: 11400000, guid: fe80eb82afdd61d4286c39f0cb28aa25, type: 2}
+  gameActionObj: {fileID: 11400000, guid: dfee61ad77f9a6740aa75ebb35a9ea91, type: 2}
   handlerEvent:
     m_PersistentCalls:
       m_Calls:
@@ -1479,7 +1479,7 @@ GameObject:
   - component: {fileID: 1758906944}
   - component: {fileID: 1758906943}
   m_Layer: 5
-  m_Name: Button (1)
+  m_Name: animButton
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1545,7 +1545,7 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 11400000, guid: fe80eb82afdd61d4286c39f0cb28aa25, type: 2}
+      - m_Target: {fileID: 11400000, guid: dfee61ad77f9a6740aa75ebb35a9ea91, type: 2}
         m_MethodName: Raise
         m_Mode: 1
         m_Arguments:

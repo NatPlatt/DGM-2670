@@ -1,4 +1,5 @@
-﻿using System.Collections;
+﻿using System;
+using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.Events;
@@ -12,6 +13,12 @@ public class GameActionHandler : MonoBehaviour
     {
         gameActionObj.action += Action;
     }
+
+    private void OnDisable()
+    {
+        gameActionObj.action -= Action;
+    }
+
     private void Action()
     {
         handlerEvent.Invoke();

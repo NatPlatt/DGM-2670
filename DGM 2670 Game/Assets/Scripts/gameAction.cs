@@ -17,8 +17,6 @@ public class GameAction : ScriptableObject
         {
             action.Invoke();
         }
-        
-     
     }
 
     public void Raise(Transform transformObj)
