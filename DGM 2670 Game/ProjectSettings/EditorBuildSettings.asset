@@ -21,6 +21,9 @@ EditorBuildSettings:
     path: Assets/Scenes/PageFour.unity
     guid: 33087a49fc57bdf4faeac5e004a20ec8
   - enabled: 1
+    path: Assets/Scenes/PageFive.unity
+    guid: e7da9e90f097c3644a5160a47df1ed17
+  - enabled: 1
     path: Assets/Scenes/pageOneFix.unity
     guid: 35ce3e81f5acc094aae986580fde382a
   m_configObjects: {}
