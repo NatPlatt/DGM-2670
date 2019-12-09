@@ -13,6 +13,7 @@
           <e p="AnimController.cs" t="Include" />
           <e p="AnimStart.cs" t="Include" />
           <e p="Anthony.cs" t="Include" />
+          <e p="audioController.cs" t="Include" />
           <e p="capsuleCreate.cs" t="Include" />
           <e p="CharacterMover.cs" t="Include" />
           <e p="CineMachineController.cs" t="Include" />
