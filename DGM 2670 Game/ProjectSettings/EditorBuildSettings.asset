@@ -30,6 +30,27 @@ EditorBuildSettings:
     path: Assets/Scenes/PageSeven.unity
     guid: fafe37cf232f1224899b9cfccfe78d77
   - enabled: 1
+    path: Assets/Scenes/PageEight.unity
+    guid: 998670d6d9a3f3e4aa10bab1be215397
+  - enabled: 1
+    path: Assets/Scenes/PageNine.unity
+    guid: 8cc01eeb820468041af0c9b2d0e6c7f5
+  - enabled: 1
+    path: Assets/Scenes/PageTen.unity
+    guid: caf1868ddea137a48a35a8a103a643a1
+  - enabled: 1
+    path: Assets/Scenes/PageEleven.unity
+    guid: be7aea9050a48d9448854e0d5a706a72
+  - enabled: 1
+    path: Assets/Scenes/PageTwelve.unity
+    guid: 7dcd4a06100c22a40a1a5cf5387a27a2
+  - enabled: 1
+    path: Assets/Scenes/PageThirteen.unity
+    guid: ce8300e2f64de4642a5d7d282eade64b
+  - enabled: 1
+    path: Assets/Scenes/PageFourteen.unity
+    guid: 66c15c8f1ebcb1d48aeb605aa355e0bf
+  - enabled: 1
     path: Assets/Scenes/pageOneFix.unity
     guid: 35ce3e81f5acc094aae986580fde382a
   m_configObjects: {}
