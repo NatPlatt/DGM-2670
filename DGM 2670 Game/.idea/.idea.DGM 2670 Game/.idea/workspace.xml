@@ -15,9 +15,10 @@
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
   </component>
   <component name="HighlightingSettingsPerFile">
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/audioController.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/ActionPractice.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/CharacterMover.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Scripts/gameAction.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/GameAction.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/AnimStart.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/SceneChange.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Interface.cs" root0="FORCE_HIGHLIGHTING" />
@@ -46,7 +47,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/Assets/Scripts/followPlayer.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/outOfBounds.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/ImageController.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/ActionPractice.cs" />
@@ -97,6 +97,7 @@
         <option value="$PROJECT_DIR$/Assets/Scripts/obstacles.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/GameActionHandler.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/gameAction.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/audioController.cs" />
       </list>
     </option>
   </component>
@@ -197,6 +198,7 @@
       <workItem from="1575325758018" duration="879000" />
       <workItem from="1575417593556" duration="48000" />
       <workItem from="1575487671282" duration="1442000" />
+      <workItem from="1575911694544" duration="296000" />
     </task>
     <servers />
   </component>
