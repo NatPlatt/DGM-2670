@@ -535,6 +535,12 @@ PrefabInstance:
       propertyPath: m_Pivot.y
       value: 0.5
       objectReference: {fileID: 0}
+    - target: {fileID: 6448455100947728085, guid: 68898d9ca711e084eaf3e07e1194e153,
+        type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_ObjectArgument
+      value: 
+      objectReference: {fileID: 102900000, guid: 7dcd4a06100c22a40a1a5cf5387a27a2,
+        type: 3}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 68898d9ca711e084eaf3e07e1194e153, type: 3}
 --- !u!224 &568713758 stripped
@@ -1159,7 +1165,7 @@ PrefabInstance:
     - target: {fileID: 3558438113386257699, guid: 606e689a593b9c649a77acf90c937ca7,
         type: 3}
       propertyPath: m_AnchoredPosition.y
-      value: 15.800003
+      value: 15.799988
       objectReference: {fileID: 0}
     - target: {fileID: 3558438113386257699, guid: 606e689a593b9c649a77acf90c937ca7,
         type: 3}
