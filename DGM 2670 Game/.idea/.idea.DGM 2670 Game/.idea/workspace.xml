@@ -15,7 +15,6 @@
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
   </component>
   <component name="HighlightingSettingsPerFile">
-    <setting file="file://$PROJECT_DIR$/Assets/Scripts/audioController.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/ActionPractice.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/CharacterMover.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/GameAction.cs" root0="FORCE_HIGHLIGHTING" />
@@ -199,6 +198,7 @@
       <workItem from="1575417593556" duration="48000" />
       <workItem from="1575487671282" duration="1442000" />
       <workItem from="1575911694544" duration="908000" />
+      <workItem from="1576096316025" duration="1243000" />
     </task>
     <servers />
   </component>
