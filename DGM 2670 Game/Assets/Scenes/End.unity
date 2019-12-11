@@ -311,12 +311,11 @@ PrefabInstance:
       propertyPath: m_Pivot.y
       value: 0.5
       objectReference: {fileID: 0}
-    - target: {fileID: 6448455100947728085, guid: 68898d9ca711e084eaf3e07e1194e153,
+    - target: {fileID: 6448455100947728086, guid: 68898d9ca711e084eaf3e07e1194e153,
         type: 3}
-      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_ObjectArgument
-      value: 
-      objectReference: {fileID: 102900000, guid: 5e86bb8580a9935458a4fb474c4446e4,
-        type: 3}
+      propertyPath: m_LocalScale.y
+      value: 2.2266
+      objectReference: {fileID: 0}
     - target: {fileID: 6448455100947728084, guid: 68898d9ca711e084eaf3e07e1194e153,
         type: 3}
       propertyPath: m_Color.r
@@ -332,11 +331,28 @@ PrefabInstance:
       propertyPath: m_Color.b
       value: 0.34151515
       objectReference: {fileID: 0}
+    - target: {fileID: 6448455100947728084, guid: 68898d9ca711e084eaf3e07e1194e153,
+        type: 3}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: 21300000, guid: e764ccd468c09ba4b8b9758b3b922c7b,
+        type: 3}
+    - target: {fileID: 6448455100947728084, guid: 68898d9ca711e084eaf3e07e1194e153,
+        type: 3}
+      propertyPath: m_Type
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 6448455101741559150, guid: 68898d9ca711e084eaf3e07e1194e153,
         type: 3}
       propertyPath: m_Text
       value: Play Again?
       objectReference: {fileID: 0}
+    - target: {fileID: 6448455100947728085, guid: 68898d9ca711e084eaf3e07e1194e153,
+        type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_ObjectArgument
+      value: 
+      objectReference: {fileID: 102900000, guid: 5e86bb8580a9935458a4fb474c4446e4,
+        type: 3}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 68898d9ca711e084eaf3e07e1194e153, type: 3}
 --- !u!224 &294288201 stripped
@@ -781,7 +797,7 @@ ParticleSystem:
       serializedVersion: 2
       minMaxState: 0
       minColor: {r: 1, g: 1, b: 1, a: 1}
-      maxColor: {r: 1, g: 1, b: 1, a: 1}
+      maxColor: {r: 0.31132078, g: 0.30214268, b: 0.27460843, a: 1}
       maxGradient:
         serializedVersion: 2
         key0: {r: 1, g: 1, b: 1, a: 1}

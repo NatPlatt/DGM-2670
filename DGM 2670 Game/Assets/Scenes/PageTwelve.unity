@@ -310,12 +310,6 @@ PrefabInstance:
       propertyPath: m_LocalScale.z
       value: 0.77114
       objectReference: {fileID: 0}
-    - target: {fileID: 6448455100947728085, guid: 68898d9ca711e084eaf3e07e1194e153,
-        type: 3}
-      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_ObjectArgument
-      value: 
-      objectReference: {fileID: 102900000, guid: ce8300e2f64de4642a5d7d282eade64b,
-        type: 3}
     - target: {fileID: 6448455100947728084, guid: 68898d9ca711e084eaf3e07e1194e153,
         type: 3}
       propertyPath: m_Sprite
@@ -332,6 +326,12 @@ PrefabInstance:
       propertyPath: m_Text
       value: 
       objectReference: {fileID: 0}
+    - target: {fileID: 6448455100947728085, guid: 68898d9ca711e084eaf3e07e1194e153,
+        type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_ObjectArgument
+      value: 
+      objectReference: {fileID: 102900000, guid: ce8300e2f64de4642a5d7d282eade64b,
+        type: 3}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 68898d9ca711e084eaf3e07e1194e153, type: 3}
 --- !u!1 &378506271
@@ -1440,7 +1440,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 10303, guid: 0000000000000000f000000000000000, type: 0}
+  - {fileID: 2100000, guid: 9ffe345f9c7e1ef42931503137bdeaba, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
